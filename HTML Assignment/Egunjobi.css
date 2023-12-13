@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    background: linear-gradient(rgba(0, 0, 0, 0.60), 
+    rgba(0, 0, 0, 0.60)), url(/Snapshot/1.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    color: #FFFFFF;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.left {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.right {
+    background-color: rgb(190, 4, 4);
+    color: #FFFFFF;
+    padding: 5px 18px;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.top-details {
+    max-width: 500px;
+    margin-inline: auto;
+    margin-top: 40px;
+} 
+
+.top-details h1{ 
+    margin: 20px 0;
+    font-size: 45px;
+    text-align: center;
+}
+
+.top-details p{ 
+    margin: 25px 0;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.top-button {
+    background-color: #2596BE;
+    color: #FFFFFF;
+    padding: 7px 22px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.top-button:hover {
+    background-color: #015675;
+}
+
+.bottom {
+    max-width: 600px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.bottom h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tags button {
+    background-color: #FFFFFF;
+    color: #2596BE;
+    padding: 10px 25px;
+    border: 1px solid #2596BE;;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+/* what should happen when you hover over the tags */
+.tags button:hover {
+    background-color: #2596BE;
+    color: #FFFFFF;
+}
+
+.img {
+    width: 200px;
+    height: auto;
+    margin: 5px;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+
